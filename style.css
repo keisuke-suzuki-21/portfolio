@@ -49,3 +49,53 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+/* セクションテーマ */
+.centering_section{
+    display: flex;
+    align-items: center; /* 垂直中心 */
+    justify-content: center; /* 水平中心 */
+}
+.centering_section:before, .centering_section:after {
+    border-top: 5px solid;
+    content: "";
+    width: 5em; /* 線の長さ */
+}
+.centering_section:before {
+    margin-right: 2em; /* 文字の右隣 */
+}
+.centering_section:after {
+    margin-left: 2em; /* 文字の左隣 */
+}
+
+/* aboutのブロック */
+.about_block{
+    width: 600px; /* 幅指定 */
+    margin: 100px auto; /* 中央寄せ */
+}
+
+/* contactのブロック */
+.contact_block{
+    padding: 30px; /* 余白指定 */
+    background-color:  #efeeee; /* 背景色指定 */
+    width: 600px; /* 幅指定 */
+    margin: 50px auto; /* 中央寄せ */
+    
+}
+input.box{
+    padding: 10px; /* 余白指定 */
+    background-color:  #d5d3d3; /* 背景色指定 */
+    /* text-align:  center; 中央寄せ */
+    width: 570px;
+}
+textarea.box{
+    padding: 10px; /* 余白指定 */
+    background-color:  #d5d3d3; /* 背景色指定 */
+    /* text-align:  center; 中央寄せ */
+    width: 570px;
+}
+.btn{
+    padding-top: 20px; /* 余白指定 */
+    text-align:  center;
+}

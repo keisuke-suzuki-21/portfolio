@@ -33,48 +33,41 @@
 
 
     <section id="about">
-        <h2>About</h2>
-        <h3>Name:鈴木啓介</h3>
-        <p>軽く自己紹介</p>
-        <h3>Skills</h3>
-        <ul>
-            <li>Ruby on Rails</li>
-            <li>html css</li>
-            <li>・・・</li>
-        </ul>
-
-        <h3>Name:土屋元</h3>
-        <p>軽く自己紹介</p>
-        <h3>Skills</h3>
-        <ul>
-            <li>Ruby on Rails</li>
-            <li>html css</li>
-            <li>お酒と迷子</li>
-        </ul>
-
+        <h2 class="centering_section">About</h2>
+        <div class="about_block">
+            <h3>Name 鈴木啓介</h3>
+            <p>軽く自己紹介</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>Ruby on Rails</li>
+                <li>html css</li>
+                <li>・・・</li>
+            </ul>
+            <h3>Name 土屋元</h3>
+            <p>軽く自己紹介</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>Ruby on Rails</li>
+                <li>html css</li>
+                <li>お酒と迷子</li>
+            </ul>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
+        <h2 class="centering_section">Contact</h2>
+        <div class = "contact_block">
         <form action="/check.html" method="POST">
-            <div class="box">
               <label class="username" for="username">Name</label><br>
-              <input id="username" type="text" name="name">
-            </div>
-        
-            <div class="box">
+              <input id="username" type="text" name="name" class="box"><br><br>
               <label class="email" for="email">E-mail</label><br>
-              <input id="email" type="email" name="email">
-            </div>
-        
-            <div class="box">
+              <input id="email" type="email" name="email" class="box"><br><br>
               <label class="text" for="text">Message</label><br>
-              <textarea id="text"></textarea>
-            </div>
-        
+              <textarea id="text" class="box"></textarea><br>
             <div class="btn">
               <button type="submit">Send</button>
             </div>
+        </div>
     </section>
 
     <footer>
