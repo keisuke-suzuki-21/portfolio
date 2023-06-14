@@ -7,9 +7,46 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-image: url(images/title_back.jpg);
+    padding: 5px;
+}
+
+.header_content{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top:10px auto;
+}
+
+.header_logo{
+    width:70px;
+}
+
+#main_content{
+    background-image: url(images/cool-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+}
+
+.container-01{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#letter_name{
+    margin-top: 0px;
+    padding-top:25%;
+    padding-left: 9%;
+    padding-right: 10%;
+    padding-bottom : 10%;
+    font-size: 100px;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -27,9 +64,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    font-size : 25px;/* トップページサイズ */
+    font-family:  "Arial";
+    color: black;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 section {
